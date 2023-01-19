@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "C:/Users/ahmet/Desktop/Marlin-Ender_3_V2_Extensible_UI/.pio/build/STM32F103RET6_creality/firmware-20230119-035953.elf",
+            "projectEnvName": "STM32F103RET6_creality",
+            "toolchainBinDir": "C:/Users/ahmet/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/ahmet/.platformio/platforms/ststm32@12.0.0/misc/svd/STM32F103xx.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "C:/Users/ahmet/Desktop/Marlin-Ender_3_V2_Extensible_UI/.pio/build/STM32F103RET6_creality/firmware-20230119-035953.elf",
+            "projectEnvName": "STM32F103RET6_creality",
+            "toolchainBinDir": "C:/Users/ahmet/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/ahmet/.platformio/platforms/ststm32@12.0.0/misc/svd/STM32F103xx.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "C:/Users/ahmet/Desktop/Marlin-Ender_3_V2_Extensible_UI/.pio/build/STM32F103RET6_creality/firmware-20230119-035953.elf",
+            "projectEnvName": "STM32F103RET6_creality",
+            "toolchainBinDir": "C:/Users/ahmet/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/ahmet/.platformio/platforms/ststm32@12.0.0/misc/svd/STM32F103xx.svd",
+            "loadMode": "manual"
+        }
+    ]
+}
