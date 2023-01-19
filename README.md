@@ -1,4 +1,4 @@
-# Ender 3 V2 Extensible UI
+# Ender 3 V2 Extensible UI 
 
 This fork was created with the intention of giving the best possible experience to E3V2 users. However, GitHub, flashing new firmware, etc. can all be quite daunting for new users. Pretty much everything you need to know is here on github, so here's a quick rundown of where to find what you need!
 
@@ -141,17 +141,6 @@ Proposed patches should be submitted as a Pull Request against the ([bugfix-2.0.
   - If you prefer Docker you can use `make tests-all-local-docker` or `make tests-all-local-docker TEST_TARGET=...`.
 
 ### [RepRap.org Wiki Page](https://reprap.org/wiki/Marlin)
-
-## Credits
-
-The current Marlin dev team consists of:
-
- - Scott Lahteine [[@thinkyhead](https://github.com/thinkyhead)] - USA &nbsp; [Donate](https://www.thinkyhead.com/donate-to-marlin) / Flattr: [![Flattr Scott](https://api.flattr.com/button/flattr-badge-small.png)](https://flattr.com/submit/auto?user_id=thinkyhead&url=https://github.com/MarlinFirmware/Marlin&title=Marlin&language=&tags=github&category=software)
- - Roxanne Neufeld [[@Roxy-3D](https://github.com/Roxy-3D)] - USA
- - Chris Pepper [[@p3p](https://github.com/p3p)] - UK
- - Bob Kuhn [[@Bob-the-Kuhn](https://github.com/Bob-the-Kuhn)] - USA
- - João Brazio [[@jbrazio](https://github.com/jbrazio)] - Portugal
- - Erik van der Zalm [[@ErikZalm](https://github.com/ErikZalm)] - Netherlands &nbsp; [![Flattr Erik](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=ErikZalm&url=https://github.com/MarlinFirmware/Marlin&title=Marlin&language=&tags=github&category=software)
 
 ## License
 
